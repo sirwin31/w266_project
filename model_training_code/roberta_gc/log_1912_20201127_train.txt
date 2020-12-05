@@ -1,0 +1,80 @@
+2020-11-27 19:12:30,335 - INFO - Starting Training
+2020-11-27 19:12:30,988 - INFO - Loaded dataset from: train_data_27Nov_gc_roberta.pickle
+2020-11-27 19:12:30,988 - INFO - Number of records: 10583
+2020-11-27 19:12:30,988 - INFO - Loading model: roberta-base
+2020-11-27 19:12:36,495 - INFO - Moving model to device
+2020-11-27 19:12:36,496 - INFO - Device: cuda
+2020-11-27 19:12:39,159 - INFO - Learning Rate: 5e-05
+2020-11-27 19:12:39,160 - INFO - Commencing Training
+2020-11-27 19:12:39,161 - INFO - Batches per Epoch: 661.4375
+2020-11-27 19:12:39,161 - INFO - Total GPU memory available (MiB): 16.274294360343184
+2020-11-27 19:12:39,161 - INFO - Cross Entropy Loss Weights: [1, 4]
+2020-11-27 19:12:39,161 - INFO - Starting Epoch 1, logging every 10 batches
+2020-11-27 19:12:47,920 - INFO - Epoch: 1, Batch: 10, mean_loss: 0.7059876918792725
+2020-11-27 19:12:56,516 - INFO - Epoch: 1, Batch: 20, mean_loss: 0.6955292224884033
+2020-11-27 19:13:05,153 - INFO - Epoch: 1, Batch: 30, mean_loss: 0.6916553378105164
+2020-11-27 19:13:13,731 - INFO - Epoch: 1, Batch: 40, mean_loss: 0.6644689440727234
+2020-11-27 19:13:22,354 - INFO - Epoch: 1, Batch: 50, mean_loss: 0.6436732411384583
+2020-11-27 19:13:30,956 - INFO - Epoch: 1, Batch: 60, mean_loss: 0.6270191073417664
+2020-11-27 19:13:39,554 - INFO - Epoch: 1, Batch: 70, mean_loss: 0.5673585534095764
+2020-11-27 19:13:48,165 - INFO - Epoch: 1, Batch: 80, mean_loss: 0.6072353720664978
+2020-11-27 19:13:56,767 - INFO - Epoch: 1, Batch: 90, mean_loss: 0.5834445357322693
+2020-11-27 19:14:05,344 - INFO - Epoch: 1, Batch: 100, mean_loss: 0.4718197286128998
+2020-11-27 19:14:13,991 - INFO - Epoch: 1, Batch: 110, mean_loss: 0.6329330801963806
+2020-11-27 19:14:22,591 - INFO - Epoch: 1, Batch: 120, mean_loss: 0.5155975818634033
+2020-11-27 19:14:31,206 - INFO - Epoch: 1, Batch: 130, mean_loss: 0.499484121799469
+2020-11-27 19:14:39,795 - INFO - Epoch: 1, Batch: 140, mean_loss: 0.4480839669704437
+2020-11-27 19:14:48,444 - INFO - Epoch: 1, Batch: 150, mean_loss: 0.5001369118690491
+2020-11-27 19:14:57,082 - INFO - Epoch: 1, Batch: 160, mean_loss: 0.7107006907463074
+2020-11-27 19:15:05,697 - INFO - Epoch: 1, Batch: 170, mean_loss: 0.562960147857666
+2020-11-27 19:15:14,330 - INFO - Epoch: 1, Batch: 180, mean_loss: 0.5174912810325623
+2020-11-27 19:15:22,991 - INFO - Epoch: 1, Batch: 190, mean_loss: 0.4951353967189789
+2020-11-27 19:15:31,581 - INFO - Epoch: 1, Batch: 200, mean_loss: 0.49303779006004333
+2020-11-27 19:15:40,163 - INFO - Epoch: 1, Batch: 210, mean_loss: 0.5655763745307922
+2020-11-27 19:15:48,771 - INFO - Epoch: 1, Batch: 220, mean_loss: 0.4997885227203369
+2020-11-27 19:15:57,399 - INFO - Epoch: 1, Batch: 230, mean_loss: 0.5483361482620239
+2020-11-27 19:16:06,021 - INFO - Epoch: 1, Batch: 240, mean_loss: 0.5288859605789185
+2020-11-27 19:16:14,640 - INFO - Epoch: 1, Batch: 250, mean_loss: 0.46821022033691406
+2020-11-27 19:16:23,264 - INFO - Epoch: 1, Batch: 260, mean_loss: 0.4366861879825592
+2020-11-27 19:16:31,871 - INFO - Epoch: 1, Batch: 270, mean_loss: 0.4375303387641907
+2020-11-27 19:16:40,463 - INFO - Epoch: 1, Batch: 280, mean_loss: 0.5097319483757019
+2020-11-27 19:16:49,062 - INFO - Epoch: 1, Batch: 290, mean_loss: 0.46580085158348083
+2020-11-27 19:16:57,682 - INFO - Epoch: 1, Batch: 300, mean_loss: 0.3697455823421478
+2020-11-27 19:17:06,284 - INFO - Epoch: 1, Batch: 310, mean_loss: 0.4798976480960846
+2020-11-27 19:17:14,885 - INFO - Epoch: 1, Batch: 320, mean_loss: 0.4463745653629303
+2020-11-27 19:17:23,526 - INFO - Epoch: 1, Batch: 330, mean_loss: 0.5383630990982056
+2020-11-27 19:17:32,173 - INFO - Epoch: 1, Batch: 340, mean_loss: 0.5212071537971497
+2020-11-27 19:17:40,798 - INFO - Epoch: 1, Batch: 350, mean_loss: 0.48907169699668884
+2020-11-27 19:17:49,449 - INFO - Epoch: 1, Batch: 360, mean_loss: 0.4947681427001953
+2020-11-27 19:17:58,047 - INFO - Epoch: 1, Batch: 370, mean_loss: 0.4526154696941376
+2020-11-27 19:18:06,672 - INFO - Epoch: 1, Batch: 380, mean_loss: 0.4635234475135803
+2020-11-27 19:18:15,293 - INFO - Epoch: 1, Batch: 390, mean_loss: 0.4739002287387848
+2020-11-27 19:18:23,904 - INFO - Epoch: 1, Batch: 400, mean_loss: 0.5591103434562683
+2020-11-27 19:18:32,506 - INFO - Epoch: 1, Batch: 410, mean_loss: 0.5540269613265991
+2020-11-27 19:18:41,118 - INFO - Epoch: 1, Batch: 420, mean_loss: 0.3925885260105133
+2020-11-27 19:18:49,731 - INFO - Epoch: 1, Batch: 430, mean_loss: 0.396853506565094
+2020-11-27 19:18:58,328 - INFO - Epoch: 1, Batch: 440, mean_loss: 0.4724648892879486
+2020-11-27 19:19:06,957 - INFO - Epoch: 1, Batch: 450, mean_loss: 0.42194053530693054
+2020-11-27 19:19:15,585 - INFO - Epoch: 1, Batch: 460, mean_loss: 0.394079327583313
+2020-11-27 19:19:24,209 - INFO - Epoch: 1, Batch: 470, mean_loss: 0.5638617873191833
+2020-11-27 19:19:32,829 - INFO - Epoch: 1, Batch: 480, mean_loss: 0.3990802466869354
+2020-11-27 19:19:41,446 - INFO - Epoch: 1, Batch: 490, mean_loss: 0.4486827850341797
+2020-11-27 19:19:50,061 - INFO - Epoch: 1, Batch: 500, mean_loss: 0.523608386516571
+2020-11-27 19:19:58,668 - INFO - Epoch: 1, Batch: 510, mean_loss: 0.400621622800827
+2020-11-27 19:20:07,244 - INFO - Epoch: 1, Batch: 520, mean_loss: 0.45042720437049866
+2020-11-27 19:20:15,871 - INFO - Epoch: 1, Batch: 530, mean_loss: 0.5389887094497681
+2020-11-27 19:20:24,470 - INFO - Epoch: 1, Batch: 540, mean_loss: 0.4528137147426605
+2020-11-27 19:20:33,062 - INFO - Epoch: 1, Batch: 550, mean_loss: 0.4564855694770813
+2020-11-27 19:20:41,681 - INFO - Epoch: 1, Batch: 560, mean_loss: 0.39617812633514404
+2020-11-27 19:20:50,315 - INFO - Epoch: 1, Batch: 570, mean_loss: 0.40223485231399536
+2020-11-27 19:20:58,926 - INFO - Epoch: 1, Batch: 580, mean_loss: 0.5093153119087219
+2020-11-27 19:21:07,521 - INFO - Epoch: 1, Batch: 590, mean_loss: 0.4630175530910492
+2020-11-27 19:21:16,163 - INFO - Epoch: 1, Batch: 600, mean_loss: 0.4120285212993622
+2020-11-27 19:21:24,804 - INFO - Epoch: 1, Batch: 610, mean_loss: 0.43161773681640625
+2020-11-27 19:21:33,433 - INFO - Epoch: 1, Batch: 620, mean_loss: 0.5033724904060364
+2020-11-27 19:21:42,061 - INFO - Epoch: 1, Batch: 630, mean_loss: 0.4634644091129303
+2020-11-27 19:21:50,663 - INFO - Epoch: 1, Batch: 640, mean_loss: 0.39206674695014954
+2020-11-27 19:21:59,279 - INFO - Epoch: 1, Batch: 650, mean_loss: 0.48199591040611267
+2020-11-27 19:22:07,881 - INFO - Epoch: 1, Batch: 660, mean_loss: 0.38248929381370544
+2020-11-27 19:22:09,156 - INFO - Completed 1 epochs.
+2020-11-27 19:22:13,971 - INFO - Saved model in file saved_model_epoch1_20201127_1912.tar

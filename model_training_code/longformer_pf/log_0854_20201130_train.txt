@@ -1,0 +1,91 @@
+2020-11-30 08:54:57,131 - INFO - Starting Training
+2020-11-30 08:54:57,216 - INFO - Loaded dataset from: train_data_29Nov_longformer_pf.pickle
+2020-11-30 08:54:57,217 - INFO - Number of records: 403
+2020-11-30 08:54:57,217 - INFO - Loading model: allenai/longformer-base-4096
+2020-11-30 08:55:02,684 - INFO - Moving model to device
+2020-11-30 08:55:02,685 - INFO - Device: cuda
+2020-11-30 08:55:05,932 - INFO - Learning Rate: 5e-05
+2020-11-30 08:55:05,933 - INFO - Commencing Training
+2020-11-30 08:55:05,933 - INFO - Batches per Epoch: 50.375
+2020-11-30 08:55:05,933 - INFO - Total GPU memory available (MiB): 16.153968015252623
+2020-11-30 08:55:05,934 - INFO - Cross Entropy Loss Weights: [1, 4]
+2020-11-30 08:55:05,934 - INFO - Starting Epoch 1, logging every 10 batches
+2020-11-30 08:56:02,144 - INFO - Epoch: 1, Batch: 10, mean_loss: 0.6082872748374939
+2020-11-30 08:56:58,090 - INFO - Epoch: 1, Batch: 20, mean_loss: 0.593363881111145
+2020-11-30 08:57:54,017 - INFO - Epoch: 1, Batch: 30, mean_loss: 0.3496384918689728
+2020-11-30 08:58:49,945 - INFO - Epoch: 1, Batch: 40, mean_loss: 0.37448981404304504
+2020-11-30 08:59:45,895 - INFO - Epoch: 1, Batch: 50, mean_loss: 0.28892120718955994
+2020-11-30 08:59:48,054 - INFO - Completed 1 epochs.
+2020-11-30 08:59:52,117 - INFO - Saved model in file saved_model_epoch1_20201130_0855.tar
+2020-11-30 08:59:52,117 - INFO - Starting Epoch 2, logging every 10 batches
+2020-11-30 09:00:48,182 - INFO - Epoch: 2, Batch: 10, mean_loss: 0.18412554264068604
+2020-11-30 09:01:44,121 - INFO - Epoch: 2, Batch: 20, mean_loss: 0.232405886054039
+2020-11-30 09:02:39,997 - INFO - Epoch: 2, Batch: 30, mean_loss: 0.2523866593837738
+2020-11-30 09:03:35,920 - INFO - Epoch: 2, Batch: 40, mean_loss: 0.32037094235420227
+2020-11-30 09:04:31,935 - INFO - Epoch: 2, Batch: 50, mean_loss: 0.1630147099494934
+2020-11-30 09:04:34,092 - INFO - Completed 2 epochs.
+2020-11-30 09:04:37,856 - INFO - Saved model in file saved_model_epoch2_20201130_0855.tar
+2020-11-30 09:04:37,856 - INFO - Starting Epoch 3, logging every 10 batches
+2020-11-30 09:05:33,895 - INFO - Epoch: 3, Batch: 10, mean_loss: 0.5265808701515198
+2020-11-30 09:06:29,848 - INFO - Epoch: 3, Batch: 20, mean_loss: 0.18944595754146576
+2020-11-30 09:07:25,788 - INFO - Epoch: 3, Batch: 30, mean_loss: 0.07928138226270676
+2020-11-30 09:08:21,754 - INFO - Epoch: 3, Batch: 40, mean_loss: 0.24627582728862762
+2020-11-30 09:09:17,717 - INFO - Epoch: 3, Batch: 50, mean_loss: 0.20654001832008362
+2020-11-30 09:09:19,868 - INFO - Completed 3 epochs.
+2020-11-30 09:09:23,544 - INFO - Saved model in file saved_model_epoch3_20201130_0855.tar
+2020-11-30 09:09:23,544 - INFO - Starting Epoch 4, logging every 10 batches
+2020-11-30 09:10:19,526 - INFO - Epoch: 4, Batch: 10, mean_loss: 0.14465712010860443
+2020-11-30 09:11:15,492 - INFO - Epoch: 4, Batch: 20, mean_loss: 0.15524794161319733
+2020-11-30 09:12:11,424 - INFO - Epoch: 4, Batch: 30, mean_loss: 0.15271076560020447
+2020-11-30 09:13:07,301 - INFO - Epoch: 4, Batch: 40, mean_loss: 0.1539769470691681
+2020-11-30 09:14:03,225 - INFO - Epoch: 4, Batch: 50, mean_loss: 0.1164550930261612
+2020-11-30 09:14:05,384 - INFO - Completed 4 epochs.
+2020-11-30 09:14:09,170 - INFO - Saved model in file saved_model_epoch4_20201130_0855.tar
+2020-11-30 09:14:09,170 - INFO - Starting Epoch 5, logging every 10 batches
+2020-11-30 09:15:05,141 - INFO - Epoch: 5, Batch: 10, mean_loss: 0.09356247633695602
+2020-11-30 09:16:01,146 - INFO - Epoch: 5, Batch: 20, mean_loss: 0.1559082418680191
+2020-11-30 09:16:57,128 - INFO - Epoch: 5, Batch: 30, mean_loss: 0.0666125938296318
+2020-11-30 09:17:53,085 - INFO - Epoch: 5, Batch: 40, mean_loss: 0.03477911651134491
+2020-11-30 09:18:49,050 - INFO - Epoch: 5, Batch: 50, mean_loss: 0.15480771660804749
+2020-11-30 09:18:51,207 - INFO - Completed 5 epochs.
+2020-11-30 09:18:54,989 - INFO - Saved model in file saved_model_epoch5_20201130_0855.tar
+2020-11-30 09:18:54,989 - INFO - Starting Epoch 6, logging every 10 batches
+2020-11-30 09:19:50,954 - INFO - Epoch: 6, Batch: 10, mean_loss: 0.06898801773786545
+2020-11-30 09:20:46,915 - INFO - Epoch: 6, Batch: 20, mean_loss: 0.08420640230178833
+2020-11-30 09:21:42,761 - INFO - Epoch: 6, Batch: 30, mean_loss: 0.07774338126182556
+2020-11-30 09:22:38,667 - INFO - Epoch: 6, Batch: 40, mean_loss: 0.015424166806042194
+2020-11-30 09:23:34,530 - INFO - Epoch: 6, Batch: 50, mean_loss: 0.0763140469789505
+2020-11-30 09:23:36,673 - INFO - Completed 6 epochs.
+2020-11-30 09:23:40,499 - INFO - Saved model in file saved_model_epoch6_20201130_0855.tar
+2020-11-30 09:23:40,500 - INFO - Starting Epoch 7, logging every 10 batches
+2020-11-30 09:24:36,415 - INFO - Epoch: 7, Batch: 10, mean_loss: 0.049998689442873
+2020-11-30 09:25:32,344 - INFO - Epoch: 7, Batch: 20, mean_loss: 0.05256769806146622
+2020-11-30 09:26:28,278 - INFO - Epoch: 7, Batch: 30, mean_loss: 0.010317079722881317
+2020-11-30 09:27:24,209 - INFO - Epoch: 7, Batch: 40, mean_loss: 0.10502095520496368
+2020-11-30 09:28:20,134 - INFO - Epoch: 7, Batch: 50, mean_loss: 0.26140472292900085
+2020-11-30 09:28:22,300 - INFO - Completed 7 epochs.
+2020-11-30 09:28:26,526 - INFO - Saved model in file saved_model_epoch7_20201130_0855.tar
+2020-11-30 09:28:26,526 - INFO - Starting Epoch 8, logging every 10 batches
+2020-11-30 09:29:22,766 - INFO - Epoch: 8, Batch: 10, mean_loss: 0.13650475442409515
+2020-11-30 09:30:18,733 - INFO - Epoch: 8, Batch: 20, mean_loss: 0.12621404230594635
+2020-11-30 09:31:14,680 - INFO - Epoch: 8, Batch: 30, mean_loss: 0.060590822249650955
+2020-11-30 09:32:10,633 - INFO - Epoch: 8, Batch: 40, mean_loss: 0.050851549953222275
+2020-11-30 09:33:06,622 - INFO - Epoch: 8, Batch: 50, mean_loss: 0.13555532693862915
+2020-11-30 09:33:08,780 - INFO - Completed 8 epochs.
+2020-11-30 09:33:12,662 - INFO - Saved model in file saved_model_epoch8_20201130_0855.tar
+2020-11-30 09:33:12,662 - INFO - Starting Epoch 9, logging every 10 batches
+2020-11-30 09:34:09,365 - INFO - Epoch: 9, Batch: 10, mean_loss: 0.08545152842998505
+2020-11-30 09:35:05,301 - INFO - Epoch: 9, Batch: 20, mean_loss: 0.007938298396766186
+2020-11-30 09:36:01,282 - INFO - Epoch: 9, Batch: 30, mean_loss: 0.030691534280776978
+2020-11-30 09:36:57,234 - INFO - Epoch: 9, Batch: 40, mean_loss: 0.005178490187972784
+2020-11-30 09:37:53,234 - INFO - Epoch: 9, Batch: 50, mean_loss: 0.0030769340228289366
+2020-11-30 09:37:55,388 - INFO - Completed 9 epochs.
+2020-11-30 09:37:59,242 - INFO - Saved model in file saved_model_epoch9_20201130_0855.tar
+2020-11-30 09:37:59,242 - INFO - Starting Epoch 10, logging every 10 batches
+2020-11-30 09:38:55,208 - INFO - Epoch: 10, Batch: 10, mean_loss: 0.03446381166577339
+2020-11-30 09:39:51,161 - INFO - Epoch: 10, Batch: 20, mean_loss: 0.00201371475122869
+2020-11-30 09:40:47,083 - INFO - Epoch: 10, Batch: 30, mean_loss: 0.004143953789025545
+2020-11-30 09:41:43,009 - INFO - Epoch: 10, Batch: 40, mean_loss: 0.04018678888678551
+2020-11-30 09:42:38,934 - INFO - Epoch: 10, Batch: 50, mean_loss: 0.0021189579274505377
+2020-11-30 09:42:41,086 - INFO - Completed 10 epochs.
+2020-11-30 09:42:44,745 - INFO - Saved model in file saved_model_epoch10_20201130_0855.tar

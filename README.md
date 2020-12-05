@@ -7,6 +7,7 @@ Our project report is in [W266_Final_Project_KennethPong_StacyIrwin.pdf](W266_Fi
 Our presentation slides [are available here](https://docs.google.com/presentation/d/17DqTjdl8s_DP_DNA-VGO_EW9BdIyz7oX4Sytzi4F0rQ/edit?usp=sharing)
 
 ## Repository Structure
+
 ### Model Training Code
 The code for fine-tuning our models is in the *model_training_code* folder. Each model has its own subfolder. Each subfolder has a consistent structure.
 * **Create_Encodings.ipynb**: The code for tokenizing the articles and preparing the data for training or evaluation is in this jupyter notebook.
@@ -19,7 +20,10 @@ The code for fine-tuning our models is in the *model_training_code* folder. Each
 * **JSON files**: Performance metrics (e.g., recall, precision) and a few model hyperparameters (e.g., batch size, # of epochs) were saved to JSON files.
 * **Files Not Uploaded to Github**: Training and development data was saved to pickle files, while model weights were saved to `.tar` files. These files were not uploaded to the Github repository due to their large size, generally several hundred megabytes.
 
-### Training Utilities
+#### Training Utilities
 We relied on a few common utility functions and dataset classes. The Python modules with these items are included in the `model_training_code/util` folder.
 * **log.py**: We used the *Python Standard Library's* logging module. The `log.py` module provides a customer logger class that logs data to both the console and a text file.
 * **data.py**: This file contains several helper functions and classes. One of the most important items in this module is our custom subclass of PyTorch's `torch.utils.data.dataset` class, called `FNDataset`. In addition to the encodings, labels, and attention mask, this class contains source file names, article lengths, and other data that was not used for training but was available for analysis.
+
+### Model Test Code
+The code for evaluating models on our test dataset is in the *model_test_code* folder, with a different subfolder for each module. The contents of these folders are similar to the training code folders. Evaluation of the model on test data was conducted within Jupyter notebooks.
